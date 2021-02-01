@@ -1,0 +1,154 @@
+.searchBar{
+ 
+    margin-left: auto;
+    margin-right: auto;    
+    display: block;
+    text-align:center;
+    
+}
+.searchBar input{
+    width: 450px;
+    border-color:rgb(243, 240, 240);
+    height: 33px;
+    border-radius: 12px;
+    border-width: 1pt;
+   
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-style: solid;
+    border-top-width: 0px;
+    margin-top: 160px;
+}
+li{
+    display:inline-block;
+    font-size: 12px;
+    text-decoration: none;
+  
+}
+.topBar {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  li a:hover {
+   text-decoration: underline;
+
+  }
+ 
+  .btnSearch{
+    color:rgb(97, 97, 97);
+    font-size: 13px;
+      display: block;
+     position: absolute;
+     top: 330px;
+     left: 540px;
+      border-top-style: solid;
+      border-top-width: 0px;
+      margin-top: 14px;
+      background-color: rgb(241, 241, 241);
+     border: none;
+        padding: 8px 25px;
+       border-radius: 8px;
+       text-align: center;
+  }
+
+  .btnSearch:hover{
+      background-color: rgb(224, 224, 224);
+      color:rgb(63, 63, 63);
+      border: solid rgb(206, 206, 207) .5px;
+  }
+  .btnSignIn{
+      background-color: rgb(58, 137, 201);
+      position: absolute;
+      top: 2px;
+      right: 30px;
+      margin: 10px;
+      color: white;
+      border: 0;
+      padding: 6px 15px 6px 15px;
+     
+  }
+  .btnSignIn:active{
+      background-color: rgb(77, 131, 202);
+  }
+
+  .linkLeft{
+      position:relative;
+      top:10px;
+      margin: 10px;
+  }
+
+  .barBottom {
+    background-color: rgb(228, 228, 228);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .barBottom a {
+    float: left;
+    display: block;
+    color: #7a7a7a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .barBottom a:hover{
+    text-decoration: underline;
+  }
+  .bottomRight{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 10px;
+  }
+  .barTop{
+    overflow: hidden;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+  }
+  .barTop a {
+    float: left;
+    display: block;
+    color: #222121;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 12px;
+  
+}
+.barTop a:hover {
+    text-decoration: underline;
+}
+.topRight{
+    position: fixed;
+    top: 2px;
+    right: 150px;
+    padding: 10px;
+}
+.btnLucky{
+    color:rgb(97, 97, 97);
+    font-size: 13px;
+    position: absolute;
+     margin: auto;
+      display: block;
+     text-align: center;
+      background-color: rgb(241, 241, 241);
+        border: none;
+        padding: 8px 25px;
+      border-radius: 8px;
+      top: 345px;
+      left: 720px;
+  }
+
+  .btnLucky:hover{
+      background-color: rgb(224, 224, 224);
+      color:rgb(63, 63, 63);
+      border: solid rgb(206, 206, 207) .5px;
+  }
